@@ -1,0 +1,55 @@
+body {
+    background-image: url("back.jpg");
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    transition: 0.4s all;
+    text-align: center;
+}
+
+#screamer {
+    position: fixed;
+    top: 10px;
+    right: 15%;
+    width: 70%;
+    transform: 0.3s;
+}
+
+.rotate {
+    transform: rotate(2880deg);
+}
+
+#title {
+    margin-top: 200px;
+    color: orange;
+    font-size: 80px;
+    text-shadow: 2px 2px 8px black, -2px 2px 8px black, 2px -2px 8px black, -2px -2px 8px black;
+}
+
+#title:hover {
+    color: rgb(255, 176, 29);
+    text-shadow: 2px 2px 18px black, -2px 2px 18px black, 2px -2px 18px black, -2px -2px 18px black;
+}
+
+#surprise {
+    width: 50%;
+    height: 100px;
+    margin-top: 300px;
+    margin-bottom: 200px;
+    border-radius: 5px;
+    color: rgb(252, 113, 0);
+    text-shadow: 1px 1px 5px black, -1px 1px 5px black, 1px -1px 5px black, -1px -1px 5px black;
+    font-size: 70px;
+    background-image: url('https://fever.imgix.net/filter/photo/e5bc8954-2cd3-11ec-8dba-feb1b000d082.jpg?auto=format');
+    transition: 0.2s;
+    background-size: 100% 200px;
+}
+
+#surprise:hover {
+    box-shadow: 0 0 10px rgb(75, 75, 75);
+    opacity: 0.85;
+}
+
+#surprise:active {
+    box-shadow: 0 0 10px rgb(49, 49, 49);
+    opacity: 0.7;
+}

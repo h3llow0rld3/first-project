@@ -9,7 +9,12 @@ setTimeout(() => {
 }, 4000);
 
 let mouseDown = false;
-let img = document.getElementById('screamer');
+
+let img = document.createElement('img');
+
+img.id = "screamer";
+img.src = "images.jpg";
+img.alt = "красивая картинка";
 
 let resizeImg = function() {
   let cloneTitleHeight = document.documentElement.clientHeight;
@@ -37,7 +42,7 @@ function screamer() {
   document.body.style.backgroundColor = 'black';
 
   setTimeout(() => {
-    img.hidden = false;
+    document.body.append(img);
     resizeImg();
   }, 1170);
 }

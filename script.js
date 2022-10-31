@@ -9,7 +9,6 @@ setTimeout(() => {
 }, 4000);
 
 let mouseDown = false;
-
 let img = document.getElementById('screamer');
 
 let resizeImg = function() {
